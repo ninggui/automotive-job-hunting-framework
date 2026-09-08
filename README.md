@@ -1,46 +1,66 @@
-# 新能源汽车求职框架
+<div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/ninggui/automotive-job-hunting-framework)
-![License](https://img.shields.io/github/license/ninggui/automotive-job-hunting-framework)
-[![SkillHub](https://img.shields.io/badge/SkillHub-在线安装-blue)](https://skillhub.cn/skills/automotive-job-hunting-framework)
+# automotive-job-hunting-framework
 
-主机厂 JD 拆解、STAR 应答、简历分品牌优化清单。
+**新能源汽车求职定位与面试框架**
 
-## 这是什么
+[SkillHub 在线安装](https://skillhub.cn/skills/automotive-job-hunting-framework) · [快速使用](#快速使用) · [核心能力](#核心能力) · [使用边界](#使用边界)
 
-一个可复用的 AI Agent 技能（Skill），来自真实业务场景沉淀，含完整执行流程、避坑清单与验证步骤。
+</div>
+
+---
+
+这是 桂宁 在真实业务场景中沉淀的可复用 AI Agent 技能（Skill），来自 Hermes Agent 实战运维，含完整执行流程、避坑清单与验证步骤。
 
 ## 快速使用
 
-将本仓库放入 Agent 技能目录后，用对应触发词调用（见 SKILL.md），Agent 会自动加载并执行完整流程。
+将本仓库放入 Agent 技能目录后，用对应触发词调用，Agent 会自动加载并执行完整流程。
+
+```text
+使用 automotive-job-hunting-framework 技能。
+这是待处理内容，直接执行。
+```
 
 ## 核心能力
 
 | 能力 | 说明 |
 |------|------|
-| JD 拆解（职位要求→能力证据） |
-| STAR 应答方法论 |
-| 简历按品牌差异化优化 |
-| 求职行动清单 |
+| 完整流程 | 步骤清晰，含验证与避坑 |
+| 即装即用 | 目录完整，无需额外依赖 |
+| 持续迭代 | 实战沉淀，随场景更新 |
+
+## 触发场景
+
+- 涉及「automotive-job-hunting-framework」的场景任务
+- 需要复用已验证方法论的工作
+- 批量/复杂任务中的专项环节
 
 ## 使用方式（安装）
 
 - **Hermes**: 放入 `skills/` 目录
-- **Claude**: 放入 `~/.claude/skills/`
-- **其他 Agent**: 按对应 SKILL.md 格式放入技能目录
-- **SkillHub 一键安装**: https://skillhub.cn/skills/automotive-job-hunting-framework
+- **Claude Code**: 放入 `~/.claude/skills/`
+- **Cursor**: 放入 `.cursor/skills/`
+- **SkillHub**: 一键安装（见上方徽章链接）
 
-## 优势
+## 目录结构
 
-- 面向主机厂售后/服务岗实战验证
-- 从 JD 到面试的全链路支撑
-- 可对接简历成稿与面试题库
+<details>
+<summary><strong>查看完整目录</strong></summary>
 
-## 内容结构
+```text
+SKILL.md              # 主技能文件：流程、边界与执行规则
+references/           # 参考文档（方法、模板、数据）
+scripts/              # 可执行脚本（如有）
+```
 
-- `SKILL.md` — 核心技能定义（触发条件、执行流程、避坑清单）
-- `references/` — 可选参考文件
+</details>
 
-## 许可
+## 使用边界
+
+- 本技能来自个人实践沉淀，按需取用，不承诺适用于所有场景
+- 敏感信息（密钥、内网地址、个人数据）不写入技能内容
+- 命令与脚本如与实际环境不符，以当前环境为准
+
+## License
 
 MIT
