@@ -1,5 +1,8 @@
 <div align="center">
 
+
+![cover](assets/cover.png)
+
 # automotive-job-hunting-framework
 
 **新能源汽车求职：主机厂 JD 拆解 + STAR 应答 + 简历优化 + 行动清单。**
